@@ -128,4 +128,4 @@ def update_sankey(selected_role, selected_user, selected_object_type):
     return generate_sankey_figure(selected_role, selected_user, selected_object_type)
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run(debug=True)
